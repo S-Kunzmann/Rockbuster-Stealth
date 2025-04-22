@@ -16,3 +16,18 @@ This repository provides an in-depth exploratory analysis of Instacart's sales d
 - Is there a connection between age and family status regarding ordering habits?
 - What classifications can be derived from demographic information, such as age, income, types of goods, and family status?
 - How do ordering habits differ among various customer profiles?
+  
+# Systems Used
+
+- PostgreSQL: Relational database management system (RDBMS) used to store and query Rockbuster's data
+- pgAdmin4: For managing PostgreSQL databases.
+- Tableau Public: Platform for creating and sharing interactive data visualizations.
+
+# Data Overview
+
+The dataset includes comprehensive information on Rockbuster’s film inventory, customer profiles, and payment transactions.
+
+# Key data points encompass:
+- Film Inventory: Details about available movies, genres, and rental durations.
+- Customer Information: Data on customer demographics and rental behavior.
+- Payments: Records of transactions and revenue details.
