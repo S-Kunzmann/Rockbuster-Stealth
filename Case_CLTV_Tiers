@@ -1,0 +1,36 @@
+SELECT
+a.customer_id, 
+count(payment.rental_id) as rental_count,
+avg(payment.amount) as average_sales,
+
+-- Using a subquery to calculate overall average sales--
+(select avg(payment.amount) FROM payment) as overall_avg_sales, 
+
+sum(payment.amount) as total_sales, 
+
+-- Using a subquery to calculate overall total sales--
+(select sum(payment.amount) FROM payment) as overall_total_sales,
+
+ROUND(24* avg(payment.amount),2) as Customer_Value,
+
+-- Using a case statement to create a new column that categorizes customers into Tiers based on customer value--
+
+(CASE WHEN ROUND(24* avg(payment.amount),2) >= 122 THEN 'TIER 1 TOP 5 HIGH VALUE CUSTOMERS' 
+      WHEN ROUND(24* avg(payment.amount),2) between 112.99 and 121.99 THEN 'TIER 1' 
+      WHEN ROUND(24* avg(payment.amount),2) between 106.99 and 112.98 THEN 'TIER 2' ELSE 'TIER 3' END) as Customer_Category,
+C.CITY,
+d.country
+
+FROM 
+payment as p
+
+GROUP BY 
+Customer_Category
+
+ORDER BY
+Customer_Value;
+
+INNER JOIN customer as a on p.customer_id = a.customer_id
+INNER JOIN address as b on a.address_id = b.address_id
+INNER JOIN city as c on b.city_id = c.city_id
+INNER JOIN country as d on c.country_id = d.country_id
