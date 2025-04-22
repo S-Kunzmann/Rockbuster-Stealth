@@ -2,6 +2,8 @@
 
 # Project Summary
 
+Rockbuster Stealth LLC, known for its extensive network of rental stores, is adapting to the streaming era by launching an online video rental service. The goal is to leverage existing movie licenses to remain competitive against major streaming platforms like Netflix and Amazon Prime. This project focuses on analyzing data to support the successful launch and ongoing strategy of this new streaming service.
+
 This repository provides an in-depth exploratory analysis of Instacart's sales data, focusing on uncovering key customer purchasing patterns. As an analyst for Instacart, the goal is to derive actionable insights that will inform targeted marketing strategies. The analysis addresses critical questions from the sales and marketing teams, including identifying the busiest days and hours for orders, understanding spending patterns, and suggesting strategies for better segmentation. Customer Profiles were developed by examining differences in behavior by brand loyalty, region, age, income, and family status. These insights will help Instacart develop more personalized marketing campaigns to increase engagement across their target audiences, boost sales and promote brand loyalty.
 
 # Key Questions
