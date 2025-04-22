@@ -1,2 +1,18 @@
 # Rockbuster-Stealth
-Sales and customer analysis to help inform a new launch strategy
+
+# Project Summary
+
+This repository provides an in-depth exploratory analysis of Instacart's sales data, focusing on uncovering key customer purchasing patterns. As an analyst for Instacart, the goal is to derive actionable insights that will inform targeted marketing strategies. The analysis addresses critical questions from the sales and marketing teams, including identifying the busiest days and hours for orders, understanding spending patterns, and exploring product popularity by department. Additionally, the project delves into customer segmentation, examining differences in behavior by brand loyalty, region, age, income, and family status. These insights will help Instacart tailor marketing campaigns to more effectively engage diverse customer profiles, boost sales, and enhance the relevance of promotions and ads.
+
+# Key Questions
+
+What are the busiest days of the week and hours of the day?
+At what times do customers spend the most money?
+With Instacart’s wide range of product prices, what recommendations can simplify price range groupings to better guide marketing efforts?
+Are there specific types of products that are more popular than others?
+How is brand loyalty distributed among users?
+Do ordering habits vary based on a customer’s loyalty status?
+Are there differences in ordering habits based on a customer’s region?
+Is there a connection between age and family status regarding ordering habits?
+What classifications can be derived from demographic information, such as age, income, types of goods, and family status?
+How do ordering habits differ among various customer profiles?
