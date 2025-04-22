@@ -2,7 +2,7 @@
 
 # Project Summary
 
-This repository provides an in-depth exploratory analysis of Instacart's sales data, focusing on uncovering key customer purchasing patterns. As an analyst for Instacart, the goal is to derive actionable insights that will inform targeted marketing strategies. The analysis addresses critical questions from the sales and marketing teams, including identifying the busiest days and hours for orders, understanding spending patterns, and exploring product popularity by department. Additionally, the project delves into customer segmentation, examining differences in behavior by brand loyalty, region, age, income, and family status. These insights will help Instacart tailor marketing campaigns to more effectively engage diverse customer profiles, boost sales, and enhance the relevance of promotions and ads.
+This repository provides an in-depth exploratory analysis of Instacart's sales data, focusing on uncovering key customer purchasing patterns. As an analyst for Instacart, the goal is to derive actionable insights that will inform targeted marketing strategies. The analysis addresses critical questions from the sales and marketing teams, including identifying the busiest days and hours for orders, understanding spending patterns, and suggesting strategies for better segmentation. Customer Profiles were developed by examining differences in behavior by brand loyalty, region, age, income, and family status. These insights will help Instacart develop more personalized marketing campaigns to increase engagement across their target audiences, boost sales and promote brand loyalty.
 
 # Key Questions
 
