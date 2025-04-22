@@ -31,3 +31,5 @@ The dataset includes comprehensive information on Rockbuster’s film inventory,
 - Film Inventory: Details about available movies, genres, and rental durations.
 - Customer Information: Data on customer demographics and rental behavior.
 - Payments: Records of transactions and revenue details.
+
+View visualizations here: [Tableau Public]([url](https://public.tableau.com/app/profile/serena.kunzmann/viz/3_10PresentingSQLResultsRockbusterStealth/Story1#1))
